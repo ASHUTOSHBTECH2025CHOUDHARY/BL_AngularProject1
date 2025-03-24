@@ -6,10 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'Hello from BridgeLabz'; 
-  message: string = 'Click the BridgeLabz Logo to visit the website!';
+  title: string = 'Hello from BridgeLabz';
+  message: string = 'Hello from BridgeLabz';
   imgUrl: string = 'assets/Bridgelabz.jpeg';
-  openBridgeLabz(): void {
-    window.open('https://www.bridgelabz.com/', '_blank');
+  url: string = 'https://www.bridgelabz.com';
+  userName: string = '';
+
+  onClick(event: Event): void {
+    console.log("BridgeLabz logo clicked!", event);
+    window.open(this.url, "_blank");
   }
 }

@@ -1,3 +1,7 @@
-<h1>{{ title }}</h1>
-<p>{{ message }}</p>
-<img [src]="imgUrl" alt="BridgeLabz Logo" (click)="openBridgeLabz()" style="cursor: pointer;" />
+<div>
+    <h1>Hello {{ userName }} from BridgeLabz</h1>
+    <img [src]="imgUrl" (click)="onClick($event)" alt="BridgeLabz Logo" />
+    <br />
+    <input [(ngModel)]="userName" placeholder="Enter your name" />
+  </div>
+  
