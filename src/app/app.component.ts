@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'Hello from BridgeLabz';
-  imgUrl: string = 'assets/Bridgelabz.jpeg';  
+  message:string = 'Hello from BridgeLabz';
+  imgUrl: string = 'assets/Bridgelabz.jpeg';
 }
