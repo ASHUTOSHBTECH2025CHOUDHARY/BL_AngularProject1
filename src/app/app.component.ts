@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  message: string = 'Hello from BridgeLabz';
+  title: string = 'Hello from BridgeLabz';
+  imgUrl: string = 'assets/Bridgelabz.jpeg';  
 }
